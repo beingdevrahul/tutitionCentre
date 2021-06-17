@@ -1,0 +1,18 @@
+extends base.pug 
+
+block style 
+  style 
+    include ../static/contact.css 
+
+block content
+  div#main 
+    h1 Contact Us 
+    div
+      form(action="/contact", method="post" , id="form")
+        input#name.inp(type="text", name="name" placeholder="Enter your name")
+        input#Fname.inp(type="text", name="Fname" placeholder="enter your Father's name")
+        input#age.inp(type="text", name="age" placeholder="enter your age")
+        input#email.inp(type="text", name="email" placeholder="enter your email id")
+        input#no.inp(type="number", name="pnumber" placeholder="enter your phone number")
+        <textarea ( id="dec" name="description" class="inp" cols="30" rows="10" placeholder="how may i help you") ></textarea>
+        button#btn(type="submit") submit.

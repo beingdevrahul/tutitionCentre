@@ -1,0 +1,33 @@
+doctype html 
+
+block style 
+block script 
+  style 
+    include ../static/base.css 
+
+html 
+  head 
+    title SmartTuition.com 
+  body 
+    nav#nav 
+      ul#navbar 
+        img(src="static/images/logo1.png", alt="logo", srcset="")
+        li #[a(href="/") Home]
+        li #[a(href="services") Services]
+        li #[a(href="about") About Us]
+        li #[a(href="contact") Contact Us] 
+        
+    block content 
+
+    footer#footer
+      h1 CopyRight @SmartTuition.com | All rights reserved.
+      div#con 
+        a(href="https://www.facebook.com/")
+          img(src="./static/images/facebook.png", alt="fb", srcset="")
+        a(href="https://www.instagram.com/")
+          img(src="./static/images/instagram.png", alt="instagram", srcset="")
+        a(href="https://www.linkedin.com/")
+          img(src="./static/images/linkedin.png", alt="linked", srcset="")
+        a(href="https://www.twitter.com/")
+          img(src="./static/images/twitter.png", alt="tweet", srcset="")
+        

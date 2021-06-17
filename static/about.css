@@ -1,0 +1,27 @@
+.containerA{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 95px; */
+}
+.containerA h1{
+    margin: 50px;
+}
+.containerA::before{
+    content: "";
+    position: absolute;
+    background: url('./static/images/bg6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    height: 100vh;
+    width: 100vw;
+}

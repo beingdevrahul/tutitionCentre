@@ -1,0 +1,23 @@
+{
+  "name": "coachingcenterwebsite",
+  "version": "1.0.0",
+  "description": "here is the best coaching center of Delhi NCR!!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
